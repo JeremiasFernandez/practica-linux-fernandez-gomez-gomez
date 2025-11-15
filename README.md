@@ -6,9 +6,9 @@ Este repositorio contiene el Trabajo Práctico grupal de **Administración de Si
 ---
 
 ## 👥 Integrantes
-- **Jeremias Fernandez**
-- **Elizabet Antonela Gomez**
-- **Victor Gomez**
+- **Jeremias Fernandez** - [GitHub](https://github.com/JeremiasFernandez)
+- **Elizabet Antonela Gomez** - [GitHub](https://github.com/antokernel)
+- **Victor Gomez** - [GitHub](https://github.com/alejandrogomez2004)
 
 ---
 
@@ -16,7 +16,6 @@ Este repositorio contiene el Trabajo Práctico grupal de **Administración de Si
 - `Vagrantfile`
 - Scripts de configuración y provisioning
 - Documentación del trabajo
-- Evidencias y capturas
 
 ---
 
