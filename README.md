@@ -7,7 +7,7 @@ Este repositorio contiene el Trabajo Práctico grupal de **Administración de Si
 
 ## 👥 Integrantes
 - **Jeremias Fernandez**
-- **Elizabeth Antonela Gomez**
+- **Elizabet Antonela Gomez**
 - **Victor Gomez**
 
 ---
