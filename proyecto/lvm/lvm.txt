@@ -1,0 +1,14 @@
+=== EVIDENCIA LVM - ALUMNO B (Jeremias Fernandez) ===
+
+NAME               MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+loop0                7:0    0 63.8M  1 loop /snap/core20/2682
+loop1                7:1    0 91.4M  1 loop /snap/lxd/35819
+loop2                7:2    0 50.9M  1 loop /snap/snapd/25577
+sda                  8:0    0   40G  0 disk 
+└─sda1               8:1    0   40G  0 part /
+sdb                  8:16   0   10M  0 disk 
+sdc                  8:32   0    2G  0 disk 
+└─vgdatos-lvbackup 253:0    0    2G  0 lvm  
+
+  PV         VG      Fmt  Attr PSize  PFree
+  /dev/sdc   vgdatos lvm2 a--  <2.00g    0 
