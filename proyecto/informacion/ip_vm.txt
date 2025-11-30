@@ -1,3 +1,8 @@
 ========== IP DE LA VM - FERNANDEZ ==========
+inet 10.0.2.15/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
+inet 192.168.100.24/24 metric 100 brd 192.168.100.255 scope global dynamic enp0s8
+
+========== IP DE LA VM - GOMEZE ==========
     inet 10.0.2.15/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
-    inet 192.168.100.14/24 metric 100 brd 192.168.100.255 scope global dynamic enp0s8
+    inet 192.168.1.104/24 metric 100 brd 192.168.1.255 scope global dynamic enp0s8
+
