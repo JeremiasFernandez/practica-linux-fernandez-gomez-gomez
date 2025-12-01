@@ -1,0 +1,76 @@
+========== LVM GOMEZE ==========
+--- lsblk ---
+NAME                            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+loop0                             7:0    0 63.8M  1 loop /snap/core20/2682
+loop1                             7:1    0 91.4M  1 loop /snap/lxd/35819
+loop2                             7:2    0 50.9M  1 loop /snap/snapd/25577
+sda                               8:0    0   40G  0 disk 
+└─sda1                            8:1    0   40G  0 part /
+sdb                               8:16   0   10M  0 disk 
+sdc                               8:32   0    2G  0 disk 
+└─vgdatosGOMEZE-lvstorageGOMEZE 253:0    0  1.5G  0 lvm  /mnt/lvmstorageGOMEZE
+
+--- pvdisplay ---
+  --- Physical volume ---
+  PV Name               /dev/sdc
+  VG Name               vgdatosGOMEZE
+  PV Size               2.00 GiB / not usable 4.00 MiB
+  Allocatable           yes 
+  PE Size               4.00 MiB
+  Total PE              511
+  Free PE               127
+  Allocated PE          384
+  PV UUID               QDFGDZ-kxpr-XN0I-u0Qa-SSKV-V1vW-n0k1y1
+   
+
+--- vgdisplay ---
+  --- Volume group ---
+  VG Name               vgdatosGOMEZE
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  2
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                1
+  Open LV               1
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               <2.00 GiB
+  PE Size               4.00 MiB
+  Total PE              511
+  Alloc PE / Size       384 / 1.50 GiB
+  Free  PE / Size       127 / 508.00 MiB
+  VG UUID               DxpkRi-BCbD-CVu8-4zKh-kXJo-9UV0-dcroVX
+   
+
+--- lvdisplay ---
+  --- Logical volume ---
+  LV Path                /dev/vgdatosGOMEZE/lvstorageGOMEZE
+  LV Name                lvstorageGOMEZE
+  VG Name                vgdatosGOMEZE
+  LV UUID                HBXwO2-8QoV-eJ5t-AUjV-ty09-u9aN-67N28E
+  LV Write Access        read/write
+  LV Creation host, time linux-practice, 2025-12-01 21:17:27 +0000
+  LV Status              available
+  # open                 1
+  LV Size                1.50 GiB
+  Current LE             384
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:0
+   
+
+--- df -h ---
+Filesystem                                 Size  Used Avail Use% Mounted on
+tmpfs                                      197M 1000K  196M   1% /run
+/dev/sda1                                   39G  1.8G   37G   5% /
+tmpfs                                      982M     0  982M   0% /dev/shm
+tmpfs                                      5.0M     0  5.0M   0% /run/lock
+vagrant                                    196G  159M  196G   1% /vagrant
+tmpfs                                      197M  4.0K  197M   1% /run/user/1000
+/dev/mapper/vgdatosGOMEZE-lvstorageGOMEZE  1.5G   24K  1.4G   1% /mnt/lvmstorageGOMEZE
