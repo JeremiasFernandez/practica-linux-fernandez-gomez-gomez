@@ -1,0 +1,3 @@
+========== IP DE LA VM - GOMEZE ==========
+    inet 10.0.2.15/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
+
