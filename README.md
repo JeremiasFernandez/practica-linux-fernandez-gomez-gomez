@@ -19,5 +19,35 @@ Este repositorio contiene el Trabajo Práctico grupal de **Administración de Si
 
 ---
 
-## 🎯 Objetivo del proyecto
+## Trabajo realizado
 
+- Información de la VM:
+  - `proyecto/informacion/ip_vm.txt`
+  - `proyecto/informacion/fastfetch.txt`
+- Permisos y usuarios:
+  - `proyecto/permisos/usuariosGOMEZE.txt`
+  - directorios `confidencial/` y `publico/` con permisos configurados
+  - `proyecto/permisos/verificacionpermisos.txt`
+- LVM:
+  - `proyecto/lvm/lvm-gomeze.txt`
+  - `proyecto/lvm/lvm.txt`
+- Archivos:
+  - `proyecto/archivos/verificacionarchivos.txt`
+- Contenedores (Docker, Prometheus, Grafana):
+  - `proyecto/contenedores/docker-compose.yml`
+  - `proyecto/contenedores/prometheus.yml`
+  - `proyecto/contenedores/errores_encontrados.md`
+  - `proyecto/contenedores/logs_completos.txt`
+  - `proyecto/contenedores/verificacion_contenedores.txt`
+  - capturas en `proyecto/contenedores/capturas/`
+- Bonus LAMP:
+  - sitio en `/var/www/html/index.html`
+  - `info.php` y `testdb.php`
+  - capturas en `proyecto/lamp/capturas/`
+  - `proyecto/lamp/verificacion_lamp.txt`
+
+---
+
+## Objetivo del proyecto
+
+Automatizar la creación y configuración de una máquina virtual Linux usando Vagrant, aplicando conceptos de administración de sistemas: usuarios y permisos, gestión de discos con LVM, manipulación de archivos, uso de contenedores Docker con monitoreo (Prometheus + Grafana) y despliegue de un servidor LAMP para practicar servicios web.
