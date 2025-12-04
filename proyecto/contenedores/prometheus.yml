@@ -1,0 +1,14 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['prometheus-practica:9090']
+
+  # Job eliminado/comentado porque nginx:alpine no expone métricas por defecto.
+  # Para evitar targets DOWN en la entrega final, se comenta el job.
+  # - job_name: 'nginx'
+  #   static_configs:
+  #     - targets: ['nginx:9113']
