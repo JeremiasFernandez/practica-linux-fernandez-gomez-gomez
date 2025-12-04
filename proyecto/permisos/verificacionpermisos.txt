@@ -9,3 +9,16 @@ Archivos en directorio colaborativo:
 Información del grupo equipotrabajo:
 equipotrabajo:x:1005:estudiante1,estudiante2,estudiante3,vagrant
 
+
+Last login: Thu Dec  4 01:59:54 2025 from 10.0.2.2
+vagrant@linux-practice:~$ cd /vagrant
+vagrant@linux-practice:/vagrant$ cat permisos/verificacionpermisos.txt
+=== Directorios confidenciales ===
+drwxrwxrwx 1 vagrant vagrant 0 Dec  4 02:13 /vagrant/permisos/confidencial/alumnoA
+
+=== Directorio confidencial en /home/vagrant (si existe) ===
+ls: cannot access '/vagrant/confidencial/*': No such file or directory
+
+vagrant@linux-practice:/vagrant$
+
+
