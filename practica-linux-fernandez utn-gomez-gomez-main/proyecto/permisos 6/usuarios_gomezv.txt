@@ -1,0 +1,4 @@
+Información de usuarios y grupos - Victor GomezV
+Usuario: vagrant
+Grupos: vagrant vboxsf docker
+Usuarios estudiante1-3 creados correctamente.

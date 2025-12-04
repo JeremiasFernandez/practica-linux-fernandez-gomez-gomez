@@ -1,0 +1,4 @@
+Verificación LAMP de Victor GomezV:
+Apache OK
+MariaDB OK
+PHP OK

@@ -1,0 +1,39 @@
+
+Last login: Wed Dec 3 00:33:23 2025 from 10.0.2.2
+vagrant@linux-practice:~$ cd /vagrant
+vagrant@linux-practice:/vagrant$ ls
+Vagrantfile archivos contenedores disk1.vdi informacion lamp permisos
+vagrant@linux-practice:/vagrant$ cd lamp
+vagrant@linux-practice:/vagrant/lamp$ ls
+verificacion_lamp.txt
+vagrant@linux-practice:/vagrant/lamp$ cat verificacion_lamp.txt
+VERIFICACION LAMP - GOMEZ
+=== VERSIONES ===
+Server version: Apache/2.4.52 (Ubuntu)
+Server built: 2025-08-11T12:10:10
+PHP 8.1.2-1ubuntu2.22 (cli) (built: Jul 15 2025 12:11:22) (NTS)
+mysql Ver 8.0.44-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+
+=== ESTADO DE SERVICIOS ===
+● apache2.service - The Apache HTTP Server
+Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+Active: active (running) since Tue 2025-12-02 23:27:24 UTC; 1h 6min ago
+Docs: https://httpd.apache.org/docs/2.4/
+Process: 12417 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+● mysql.service - MySQL Community Server
+Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+Active: active (running) since Tue 2025-12-02 23:26:44 UTC; 1h 7min ago
+Main PID: 5056 (mysqld)
+Status: "Server is operational"
+
+=== ARCHIVOS DEL SITIO ===
+total 12
+-rw-r--r-- 1 root root 1828 Dec 3 00:15 index.html
+-rw-r--r-- 1 root root 20 Dec 2 23:57 info.php
+-rw-r--r-- 1 root root 1980 Dec 3 00:28 testdb.php
+
+=== PRUEBA DB (USUARIO alumno / DB tpfinaldb) ===
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Database (tpfinaldb)
+tpfinaldb
+vagrant@linux-practice:/vagrant/lamp$

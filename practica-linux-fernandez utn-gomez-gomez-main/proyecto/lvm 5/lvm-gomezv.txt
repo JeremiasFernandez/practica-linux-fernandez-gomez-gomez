@@ -1,0 +1,2 @@
+Estado del LVM para Victor GomezV:
+Volumen creado, formateado y montado correctamente.

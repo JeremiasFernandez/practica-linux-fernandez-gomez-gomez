@@ -1,0 +1,20 @@
+========== FASTFETCH ==========
+
+OS: Ubuntu 22.04.5 LTS (Jammy Jellyfish) x86_64
+Host: VirtualBox (1.2)
+Kernel: Linux 5.15.0-161-generic
+Uptime: 26 mins
+Packages: 591 (dpkg), 3 (snap)
+Shell: bash 5.1.16
+CPU: AMD Ryzen 5 2400G (2) @ 3.60 GHz
+GPU: InnoTek Systemberatung GmbH VirtualBox Graphics Adapter
+Memory: 345.13 MiB / 1.92 GiB (18%)
+Swap: Disabled
+Disk (/): 1.76 GiB / 38.70 GiB (5%) - ext4
+Local IP (enp0s3): 10.0.2.15/24
+Locale: C.UTF-8
+
+========== INTEGRANTES DEL EQUIPO ==========
+Jeremias Fernandez
+Elizabet Antonela Gomez
+Victor Gomez

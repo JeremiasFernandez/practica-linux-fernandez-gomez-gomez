@@ -1,0 +1,7 @@
+Verificación de archivos en LVM - Victor GomezV
+Estructura creada:
+- proyectos/activos
+- proyectos/archivados
+- respaldos
+- temporal
+Documentos 01-10 movidos correctamente.
