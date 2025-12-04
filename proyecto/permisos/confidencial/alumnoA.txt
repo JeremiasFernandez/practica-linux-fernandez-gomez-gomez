@@ -1,1 +1,3 @@
-Archivo confidencial del alumno A (GOMEZ)
+Archivo confidencial del alumno A:Elizabet Antonela Gomez
+
+“Actualizar nombre en archivo alumnoA”
